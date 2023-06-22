@@ -1,7 +1,8 @@
 start = int(input("Задача:"))
 
+#4 задача по лаб_8
 def switch(start):
-    if start == 1:
+    if start == 1: 
         a = int(input("Первое число: "))
         b = int(input("Второе число: "))
         e1(a, b)
@@ -21,6 +22,7 @@ def switch(start):
         b= input("Карты на столе:")
         e4(a,b)
 
+#выводит на экран чифры начиная с a до b
 def e1(a, b):
     for i in range(a, b + 1):
         print(i)
