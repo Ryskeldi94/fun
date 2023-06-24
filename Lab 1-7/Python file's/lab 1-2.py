@@ -12,4 +12,4 @@ elif 17 <= old <= 21:
 else:
     print("I'm "  + str(old) + " years old and I'm working")
 
-print("Hw you name?")
+print("How you name?")

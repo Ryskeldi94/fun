@@ -1,5 +1,7 @@
+#номер задача
 start = int(input("Задача:"))
 
+#аналог функция switch на других языках
 def switch(start):
     if start == 1:
         a = int(input("Первое число: "))
@@ -20,6 +22,9 @@ def switch(start):
         a= int(input("Сколько карта:"))
         b= input("Карты на столе:")
         e4(a,b)
+
+    else:
+        print("'1-4' ")
 
 def e1(a, b):
     for i in range(a, b + 1):
