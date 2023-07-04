@@ -3,21 +3,25 @@ start = int(input("Задача:"))
 
 #аналог функция switch на других языках
 def switch(start):
+    #первое задача
     if start == 1:
         a = int(input("Первое число: "))
         b = int(input("Второе число: "))
         e1(a, b)
 
+    #ВТОРОЕ ЗАДАЧА
     if start == 2:
         a = int(input("Первое число: "))
         b = int(input("Второе число: "))
         e2(a, b)
 
+    #третье задача
     if start == 3:
         a = int(input("Первое число: "))
         b = int(input("Второе число: "))
         e3(a,b)
 
+    #4
     if start == 4:
         a= int(input("Сколько карта:"))
         b= input("Карты на столе:")
