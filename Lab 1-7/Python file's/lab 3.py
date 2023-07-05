@@ -54,5 +54,6 @@ def e4(a, b):
     print(total - sum_card)
 
 
-
+re=int(input())
+print(re)
 switch(start)

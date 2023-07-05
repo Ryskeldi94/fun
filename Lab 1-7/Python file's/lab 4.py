@@ -18,11 +18,12 @@
 # input_string = input()
 # fung(input_string)
 #===========================================================================
-
+#бесконечное цикл, пока условия не выполнится
 while True:
     a = input()
     b = input()
 
+    #if проверяет переменных на int с isdigit()
     if a.isdigit() == True and b.isdigit() == True:
         print(int(a) + int(b))
-        break
+        break #в случья правильности закончит цикл
